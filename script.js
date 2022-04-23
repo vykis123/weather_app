@@ -46,7 +46,7 @@ const headingDisplay = () => {
 headingDisplay();
 
 const gettingWeatherInfoByCity = async (cityName) => {
-  const gettingLocation = `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=1&appid=c364660d479f89ce3472e450b1a599b1`;
+  const gettingLocation = `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=1&appid=c364660d479f89ce3472e450b1a599b1`;
 
   try {
     showSpinner();
