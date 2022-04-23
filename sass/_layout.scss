@@ -1,0 +1,20 @@
+.container {
+  background-image: url(/img/lake.jpg),
+    linear-gradient(180deg, #380036, #0cbaba);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+  padding: 2rem 3rem;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, auto);
+  place-items: center;
+  gap: 2rem;
+}
+
+.forecast-container {
+  grid-column: 1/3;
+}

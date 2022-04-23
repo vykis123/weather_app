@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="stylesheet" href="css//styles.css" />
+    <script src="script.js" defer></script>
+
+    <title>Weather app</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="spinner" id="spinner"></div>
+      <form action="#" class="search" id="form">
+        <input
+          type="text"
+          class="search__input"
+          id="search__input"
+          placeholder="Enter the city"
+          required
+        />
+        <button class="search__btn" type="submit">
+          <i class="uil uil-search-alt"></i>
+        </button>
+      </form>
+
+      <div class="forecast-container">
+        <h2 class="forcast__text"></h2>
+        <div class="wrapper"></div>
+      </div>
+    </div>
+  </body>
+</html>
